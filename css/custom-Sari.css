@@ -68,13 +68,8 @@ div.bibinfo pre { clear:both; }
 .social-icons a {
   display: inline-block;
   margin-right: 10px;
-  margin-left: 10px;
-  /* for using the original list */
-  /* text-indent: -9999px; */ 
+  text-indent: -9999px;
 }
-
-
-
 .twitter {
   background-image: url(../img/twitter.png);
   width: 22px;
@@ -95,7 +90,6 @@ div.bibinfo pre { clear:both; }
   width: 22px;
   height: 22px;
 }
-
 .orcid {
   background-image: url(../img/orcid.png);
   width: 22px;
@@ -123,7 +117,7 @@ div.bibinfo pre { clear:both; }
 }
 
 .bg-udc {
-  background-color: #0814bb !important;
+  background-color: #18453b !important;
 }
 
 .display-5{font-size:2rem;font-weight:300;line-height:1.2}
@@ -145,7 +139,7 @@ div.bibinfo pre { clear:both; }
 }
 
 a {
-  color: #00bdca;
+  color: #a52a2a;
 }
 
 /* Sticky footer styles
@@ -219,7 +213,6 @@ button.navbutton {
 	color:white; 
 	outline-style:none;
 }
-
 
 
 /* timelinelist
@@ -452,19 +445,4 @@ ul.timelinelist > li:before {
             left: -14px;
             right: auto;
         }
-}
-
-.image-reduced {
-  max-width: 60%;
-  height: auto;
-}
-
-.University{
-  color:rgb(0, 0, 0);
-  font-size: 20px;
-  
-}
-
-.container {
-max-width:1540px;
 }
