@@ -186,7 +186,7 @@ code {
   font-size: 80%;
 }
 
-/* timelinelist
+/* timelinelist clist
 -----------------------------------------------------*/
 
 ul.clist {
@@ -250,11 +250,14 @@ ul.timelinelist > li:before {
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #e10879;
+    border-top-right-radius: 5%;
+    transform: rotate(45deg);
+    border: 3px solid rgb(2 182 124);
     left: 20px;
     width: 20px;
     height: 20px;
     z-index: 400;
+    margin-top: 3px;
 }
 
 .timeline {
@@ -290,15 +293,6 @@ ul.timelinelist > li:before {
             clear: both;
         }
 
-        .timeline > li:before,
-        .timeline > li:after {
-            content: " ";
-            display: table;
-        }
-
-        .timeline > li:after {
-            clear: both;
-        }
 
         .timeline > li > .timeline-panel {
             width: 46%;
@@ -459,7 +453,7 @@ ul.timelinelist > li:before {
 
 /* Extra included custom functions for the page */
 .image-reduced {
-  max-width: 60%;
+  max-width: 250px;
   height: auto;
 }
 
@@ -491,27 +485,34 @@ max-width:1540px;
   background-color: rgb(40 80 124)!important;
 }
 
-.badge-python {
+
+
+.project-badge-python {
   color: rgb(255, 255, 255);
   background-color: rgb(52 110 157);
 }
 
-.badge-sqlite {
+.project-badge-sqlite {
   color: rgb(255, 255, 255);
   background-color: rgb(127, 200, 246);
 }
 
-.badge-fastapi {
+.project-badge-fastapi {
   color: rgb(255, 255, 255);
   background-color: rgb(0 148 133);
 }
 
-.badge-html {
+.project-badge-html {
   color: rgb(255, 255, 255);
   background-color: rgb(213 64 63);
 }
 
-.badge-matlab {
+.project-badge-matlab {
   color: rgb(255, 255, 255);
   background-color: rgb(192 76 11);
 }
+
+
+/* .text-responsive {
+  font-size: calc(80% + 1vw + 1vh);
+} */

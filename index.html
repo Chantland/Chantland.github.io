@@ -67,7 +67,7 @@
 				<a class="nav-link" href="#education">Education, Experience, and Awards</a>
 				-->
 			    <button type="button" class="navbutton" onclick="onClickFunction(document.getElementById('education').id)">
-                <a class="nav-link">Education, Experience, and Awards</a>
+                <a class="nav-link">Education, Experience, and Certifications</a>
                 </button>               
             </ul>
           </div>
@@ -92,7 +92,7 @@
     <!-- Begin page content -->
     <main role="main" class="container">
     <div class="row">
-      <div class="col-4 mx-auto d-block">
+      <div class="col-md-4 mx-auto d-block">
         <div class="row mt-5 mx-auto d-block text-center">
           <img src="img/profile.png" class="image-reduced rounded-circle mb-3" alt="Profile picture">
           <h4>Eric C. M. Chantland</h4>
@@ -103,7 +103,7 @@ href="https://psychology.msu.edu/programs/cognition-and-cognitive-neuroscience/i
         </div>
         <hr>
         <div class="row mx-auto d-block">
-        <p class="lead text-center "><a href="mailto:ericchantland@gmail.com"><i class="far fa-envelope fa-lg"></i></a> ericchantland@gmail.com</p>
+        <p class="lead text-center"><a href="mailto:ericchantland@gmail.com"><i class="far fa-envelope fa-lg"></i></a> ericchantland@gmail.com</p>
         <ul class="text-center social-icons no-padding-start">
           <!-- original list, removed because I prefer the links to have color -->
           	<!-- <li><a class="researchgate" href="https://www.researchgate.net/profile/Eric-Chantland-2" title="ResearchGate">ResearchGate</a></li>
@@ -134,13 +134,15 @@ href="https://psychology.msu.edu/programs/cognition-and-cognitive-neuroscience/i
         </a>
         -->
         <hr>
+        <div class= "d-none d-md-block">
         <a class="twitter-timeline" href="https://twitter.com/EricChantland?ref_src=twsrc%5Etfw" data-tweet-limit="3">Tweets by EricChantland</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        </div>
       </div>
       </div>
 
 
       <!--- Eric Hello--->
-      <div class="col-8">
+      <div class="col-md-8">
 	   <section id="intro" class="mt-5">
         	<h3 class="display-5">/~Chantland/ index</h3>
 			<p>
@@ -172,11 +174,11 @@ href="https://psychology.msu.edu/programs/cognition-and-cognitive-neuroscience/i
             </div>
             <div class="col-8">
               <div class="tab-content">
-                <div class="tab-pane fade show active " id="DicePicture" role="tabpanel"> <a href="https://github.com/Chantland/Dice_Picture"> Dice_Picture </a><span class="badge badge-python">Python</span> <br>
+                <div class="tab-pane fade show active " id="DicePicture" role="tabpanel"> <a href="https://github.com/Chantland/Dice_Picture"> Dice_Picture </a><span class="badge project-badge-python">Python</span> <br>
                 Convert an inputted image into one created from dice. Includes optional arguments for desired output dice.</div>
-                <div class="tab-pane fade " id="API-Dice" role="tabpanel"><a href="https://github.com/Chantland/FastAPI-Dice-APP"> FastAPI-Dice-APP </a><span class="badge badge-python">Python</span><span class="badge badge-fastapi">FastAPI</span><span class="badge badge-sqlite">SQLite</span><span class="badge badge-html">HTML</span><br>
+                <div class="tab-pane fade " id="API-Dice" role="tabpanel"><a href="https://github.com/Chantland/FastAPI-Dice-APP"> FastAPI-Dice-APP </a><span class="badge project-badge-python">Python</span><span class="badge project-badge-fastapi">FastAPI</span><span class="badge project-badge-sqlite">SQLite</span><span class="badge project-badge-html">HTML</span><br>
                 API demonstration allowing for repeated use of <a href="https://github.com/Chantland/Dice_Picture"> Dice_Picture </a> through frontend. Saves and deletes pictures via relational database (SQLite)</div>
-                <div class="tab-pane fade " id="ChoiceAnalysis" role="tabpanel"><a href="https://github.com/Chantland/CVT_Logistic_Analysis">CVT_Logistic_Analysis </a><span class="badge badge-matlab ">MATLAB</span> <br>
+                <div class="tab-pane fade " id="ChoiceAnalysis" role="tabpanel"><a href="https://github.com/Chantland/CVT_Logistic_Analysis">CVT_Logistic_Analysis </a><span class="badge project-badge-matlab ">MATLAB</span> <br>
                 Analysis using multiple binomial logistic regression for cognitive experiments: "Choice Valuation Task" and "Choice Proficiency Task" </div>
               </div>
             </div>
@@ -189,6 +191,10 @@ href="https://psychology.msu.edu/programs/cognition-and-cognitive-neuroscience/i
             })
           </script>
         </section>
+
+
+
+
         <section id="Academic" class="mt-5">
           <h3 class="display-5">Selected Publications</h3><hr>
         
@@ -208,7 +214,7 @@ href="https://psychology.msu.edu/programs/cognition-and-cognitive-neuroscience/i
               <h5>Value-Based Attention Capture: Differential Effects of Loss and Gain Contingencies</h5>
               <p><a class="venue" target="_blank">In Journal of Vision,  Volume 20 Issue 5</a>, 2020<br/>
                   M. W. Becker and S. Hemsteger and E. Chantland and T. Liu</p>
-              [<a href="https://jov.arvojournals.org/article.aspx?articleid=2766101" target='_blank'>pdf</a>] [<a href="https://www.researchgate.net/publication/341338316_Value-based_attention_capture_Differential_effects_of_loss_and_gain_contingencies/citation/download" target='_blank'>bib</a>] [<a href="https://github.com/sari-saba-sadiya/EEGExtract" target='_blank'>code</a>]
+              [<a href="https://jov.arvojournals.org/article.aspx?articleid=2766101" target='_blank'>pdf</a>] [<a href="https://www.researchgate.net/publication/341338316_Value-based_attention_capture_Differential_effects_of_loss_and_gain_contingencies/citation/download" target='_blank'>bib</a>]
             </div>
             <div class="col-md-4"><img class="img-fluid rounded mb-3 mb-md-0" src="img/vision2020.png" alt="Accuracy between groups"></div>            
           </div>
@@ -217,169 +223,110 @@ href="https://psychology.msu.edu/programs/cognition-and-cognitive-neuroscience/i
 
 
         <section id="teach" class="mt-5">
-          <h3 class="display-5">Teaching</h3>
-          <hr>
-          <ul class="clist">
-            <li>CSE 231: Introduction to Programming I (Teaching Assistant) <span class="badge badge-secondary">Fall 2020</span></li>
-          </ul>
-          <ul class="clist">
-            <li>CSE 440: Introduction to AI (Teaching Assistant) <span class="badge badge-secondary">Fall 2018, Spring 2019</span></li>
+          <h3 class="display-5">Teaching</h3><hr>
+          <ul class="timelinelist">
+            <li><b>PSY 395</b>: Research Design and Measurement in Psychological Research (Lab Lecturer/Proctor, Teaching Assistant) <span class="badge badge-secondary">Fall 2018, Spring 2021</span></li>
+            <li><b>PSY 101</b>: Introductory Psychology (Teaching Assistant) <span class="badge badge-secondary">Spring 2019, Fall 2020, Fall 2021</span></li>
+            <li><b>PSY 295</b>: Data Analysis in Psychological Research (Teaching Assistant) <span class="badge badge-secondary"> Fall 2019</span></li>
+            <li><b>PSY 235</b>: Social Psychology (Teaching Assistant) <span class="badge badge-secondary"> Spring 2020</span></li>
+            <li><b>PSY 342</b>: Stereotypes, Prejudice, and Discrimination (Teaching Assistant) <span class="badge badge-secondary"> Spring 2020</span></li>
+            <li><b>PSY 200</b>: Cognitive Psychology (Teaching Assistant) <span class="badge badge-secondary"> Spring 2022</span></li>
           </ul>
         </section>
-<!--
-        <section id="pubs" class="mt-5">
-          <h3 class="display-5">Publications</h3>
-          <hr>
-          <table id="pubTable" class="display"></table>
-<pre id="bibtex">
-@misc{horrostudy,
-  title={Study of the Intel Knights Landing (KNL) memory system tradeoffs},
-  author={Horro, Marcos and Rodríguez, Gabriel and Touriño, Juan and Kandemir, Mahmut T},
-  year={2017},
-  publisher={13th International Summer School on Advanced Computer Architecture and Compilation for High-Performance and Embedded Systems (ACACES)}
-},
-@inproceedings{horro2016exploracion,
-  title={Exploración y optimización energética de arquitecturas heterogéneas con el framework gem5},
-  author={Horro, Marcos and Rodríguez, Gabriel and Touriño, Juan},
-  booktitle={Actas Jornadas Sarteco},
-  pages={509--516},
-  year={2016}
-}
-@inproceedings{horroarchitectural,
-  title={Architectural exploration of heterogeneous memory systems},
-  author={Horro, Marcos and Rodríguez, Gabriel and Touriño, Juan and Kandemir, Mahmut T},
-  booktitle={19th workshop on Compiler for Parallel Computing},
-  pages={1--8},
-  year={2016}
-}
-@inproceedings{horromat,
-  title={Actividades na Ensinanza Secundaria. Experiencia dun alumno no caso concreto de modelización de focos luminosos},
-  author={Búa, Jose B. and Horro, Marcos},
-  booktitle={VI Congreso de AGAPEMA},
-  pages={1--1},
-  year={2012}
-}
-</pre>
-        </section>
-        <br>
--->
+
         <section id="education" class="mt-5">
-          <h3 class="display-5">Education, Experience, and Awards</h3>
+          <h3 class="display-5">Education, Experience, and Certification</h3>
           <hr>
           <ul class="timeline">
+            <li class="timeline-inverted">
+              <div class="timeline-badge success"><i class="fas fa-certificate"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Web Design for Everybody: Basics of Web Development & Coding Specialization (ongoing)</h4>
+                  <h5 class="timeline-subtitle">Coursera</h5>
+                  <ul class="timelinelist">
+                    <li><h6 class="timeline-body">Introduction to HTML5</h6>
+                    <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> May 2022 [<a href="https://coursera.org/share/1f31e46f889e80d1308e88fa7fb4765e" title="HTML-Certificate" target="_blank" >Certificate</a>] </small></p></li>
+                    <li><h6 class="timeline-body">Introduction to CSS3</h6>
+                    <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> May 2022 [<a href="https://coursera.org/share/2597122c073ff124d3ad8922d1835c39" title="CSS3-Certificate" target="_blank" >Certificate</a>]</small></p></li>
+                    <li><h6 class="timeline-body">Interactivity with JavaScript</h6>
+                    <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> May 2022 [<a href="https://coursera.org/share/4183c1d77c02d7181555f6d35f8eda13" title="Javascript-Certificate" target="_blank" >Certificate</a>]</small></p></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+                
             <li class="timeline">
               <div class="timeline-badge primary"><i class="fas fa-university"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">PhD Candidate</h4>
-                  <h5 class="timeline-subtitle">Dual PhD in Cognitive Science and Computer Science</h5>
-                  <h6 class="timeline-subtitle">Michigan State University</h6>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Oct 2017 - present</small></p>
+                  <h4 class="timeline-title">Masters in Cognitive Psychology</h4>
+                  <h5 class="timeline-subtitle">Michigan State University</h5>
+                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Aug 2018 - May 2022</small></p>
                 </div>
                 <div class="timeline-body">
-                  <p><i class="fas fa-file-signature"></i> Current GPA: 3.8</p>
+                  <p><i class="fas fa-file-signature"></i> GPA: 3.93</p>
                 </div>
               </div>
             </li>
+
             <li class="timeline-inverted">
-              <div class="timeline-badge warning"><i class="fas fa-trophy"></i></div>
+              <div class="timeline-badge success"><i class="fas fa-certificate"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">Cultural Heritage Informatics Fellowship</h4>
-                  <h5 class="timeline-subtitle">Michigan State Univesity</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Fall 2020</small></p>
-                </div>
-                <div class="timeline-body">
-                  <p><a href="http://chi.anthropology.msu.edu/fellowships/">CHI Grad Fellowship</a><br>Total amount: 4,000$</p>
+                  <h4 class="timeline-title">Data Analysis with Python</h4>
+                  <h5 class="timeline-subtitle">FreeCodeCamp</h5>
+                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Apr 2022 
+                  [<a href="https://freecodecamp.org/certification/Eric_Chantland/data-analysis-with-python-v7" title="Python-Scientific-Certificate" target="_blank" >Certificate</a>] 
+                  [<a href="https://github.com/Chantland/FreeCodeCamp_Assignments" title="Python-Scientific-Github" target="_blank" >Github</a>]</small></p>
                 </div>
               </div>
             </li>
+
             <li class="timeline-inverted">
-              <div class="timeline-badge warning"><i class="fas fa-trophy"></i></div>
+              <div class="timeline-badge success"><i class="fas fa-certificate"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">Graduate Office Fellowship</h4>
-                  <h5 class="timeline-subtitle">Michigan State Univesity</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Summer 2020</small></p>
-                </div>
-                <div class="timeline-body">
-                  <p><a href="https://grad.msu.edu/msu-graduate-school-fellowships">Department of Graduate Studies</a><br>Total amount: 6,942$</p>
+                  <h4 class="timeline-title">Scientific Computing with Python</h4>
+                  <h5 class="timeline-subtitle">FreeCodeCamp</h5>
+                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Feb 2022 
+                  [<a href="https://freecodecamp.org/certification/Eric_Chantland/scientific-computing-with-python-v7" title="Python-Scientific-Certificate" target="_blank" >Certificate</a>] 
+                  [<a href="https://github.com/Chantland/FreeCodeCamp_Assignments" title="Python-Scientific-Github" target="_blank" >Github</a>]</small></p>
                 </div>
               </div>
             </li>
+            
             <li class="timeline">
-              <div class="timeline-badge primary"><i class="fas fa-university"></i></div>
+              <div class="timeline-badge warning"><i class="fas fa-briefcase"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">MSc in Computer Science</h4>
-                  <h5 class="timeline-subtitle">Specialization in Cognitive Science</h5>
-                  <h6 class="timeline-subtitle">Michigan State University</h6>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Fall 2015 - Spring 2017</small></p>
-                </div>
-                <div class="timeline-body">
-                  <p><i class="fas fa-file-signature"></i> GPA: 3.8</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-badge warning"><i class="fas fa-trophy"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">Fulbright Scholership Program for IEE</h4>
-                  <h5 class="timeline-subtitle">U.S. Bureau of Educational and Cultural Affairs</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Fall 2015</small></p>
-                </div>
-                <div class="timeline-body">
-                  <p><a href="https://www.iie.org/Programs/Fulbright-Program-for-Non-US-Students">Full-ride MSc scholership</a><br>Total amount: 30,000$</p>
+                  <h4 class="timeline-title">Research Manager</h4>
+                  <h5 class="timeline-subtitle"> Neuroimaging of Perception and Attention Lab</h5>
+                  <h6 class="timeline-subtitle">Taosheng Liu</h6>
+                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Aug 2017 - Aug 2018</small></p>
+                  <h5 class="timeline-subtitle"> Attention and Perception Lab, Principal Investigator</h5>
+                  <h6 class="timeline-subtitle">Mark Becker</h6>
+                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Jan 2017 - Aug 2018</small></p>
                 </div>
               </div>
             </li>
 
             <li class="timeline">
-              <div class="timeline-badge warning"><i class="fas fa-briefcase"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">VLSI Engineer</h4>
-                  <h5 class="timeline-subtitle"> <i class="fab fa-apple"></i> Apple Inc.</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Aug 2013 - Aug 2015</small></p>
-                </div>
-                <div class="timeline-body">
-                  <p> Hardware dessign and Verification</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
               <div class="timeline-badge primary"><i class="fas fa-university"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">BSc Mathematics</h4>
-                  <h5 class="timeline-subtitle">Technion - Israel Institute of Technology</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Fall 2009 - Spring 2013</small></p>
+                  <h4 class="timeline-title">BS Psychology</h4>
+                  <h5 class="timeline-subtitle">Michigan State University</h5>
+                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Aug 2014 - Dec 2016</small></p>
                 </div>
                 <div class="timeline-body">
-					<i class="fas fa-trophy"></i> 2013 Dean Honors List
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-badge primary"><i class="fas fa-university"></i></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="timeline-title">BSc Computer Science</h4>
-                  <h5 class="timeline-subtitle">Technion - Israel Institute of Technology</h5>
-                  <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Fall 2009 - Spring 2013</small></p>
-                </div>
-                <div class="timeline-body">
-					<i class="fas fa-trophy"></i> 2013 Dean Honors List
+                  <p><i class="fas fa-file-signature"></i> GPA: 3.67</p>
                 </div>
               </div>
             </li>
         </ul>
         </section>
       </div>
-    <!--
-    </div>
-    -->
     </main>
 
     <footer class="footer">
@@ -395,7 +342,7 @@ href="https://psychology.msu.edu/programs/cognition-and-cognitive-neuroscience/i
     <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/bibtex.js"></script>
+    <!-- <script src="js/bibtex.js"></script>
 <script type="text/javascript">
  var init = function() {
    bibtexify("#bibtex", "pubTable", {});
@@ -421,6 +368,6 @@ jQuery("#pubTable").on("click", "a", function(e) {
     return false;
   }
 });
-</script>
+</script> -->
   </body>
 </html>
