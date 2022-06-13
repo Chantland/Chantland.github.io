@@ -7,7 +7,7 @@ This project is meant to directly clone in your servers' `public_html` folder, s
 the dependencies installed.
 
 ## Access
-Quick access to Eric Chantlan'd webpage, follow this link: https://chantland.github.io/
+Quick access to Eric Chantland's webpage, follow this link: https://chantland.github.io/
 
 ## Basic changes:
 
