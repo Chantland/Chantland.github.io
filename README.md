@@ -6,6 +6,9 @@ academic website. It is a Bootstrap template, so better refer the [documentation
 This project is meant to directly clone in your servers' `public_html` folder, since it has all
 the dependencies installed.
 
+## Access
+Quick access to Eric Chantlan'd webpage, follow this link: https://chantland.github.io/
+
 ## Basic changes:
 
 * Colors: css/custom.css
