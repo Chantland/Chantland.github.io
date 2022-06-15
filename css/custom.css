@@ -446,6 +446,13 @@ ul.timelinelist > li:before {
             left: -14px;
             right: auto;
         }
+    /* non-timeline custom additions */
+    .ec-list-tab {
+      font-size: .7em;
+    }
+    .myPub img {
+      max-width: 400px;
+    }
 }
 
 
@@ -478,10 +485,10 @@ max-width:1540px;
 
 #myList {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.2em;
 }
 
-.ec-list-tab-color.active {
+.ec-list-tab.active {
   background-color: rgb(40 80 124)!important;
 }
 
@@ -513,6 +520,26 @@ max-width:1540px;
 }
 
 
+
 /* .text-responsive {
   font-size: calc(80% + 1vw + 1vh);
+} */
+
+
+/* @media (min-width: 400px){
+  body{
+    background-color: rgb(0, 51, 255);
+  }
+}
+
+@media (min-width: 800px){
+  body{
+    background-color: rgb(255, 0, 0);
+  }
+}
+
+@media (min-width: 1200px){
+  body{
+    background-color: rgb(0, 255, 55);
+  }
 } */
